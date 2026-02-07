@@ -57,6 +57,7 @@ async function checkWeather(city) {
         return;
     }
 
+
     const data = await response.json();
 
     document.querySelector(".city").innerHTML = data.name;
